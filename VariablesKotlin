@@ -1,1 +1,25 @@
 https://pl.kotl.in/3voOWm9La
+
+const val number2=8//variable global constante
+fun main() {
+    val number=16//entero
+    println(number)
+    println(number2)
+    val string="hola"//String
+    println(string)
+   	val byte=128//bytes
+    println(byte)
+    val unMillon=1000000
+    println(unMillon)
+    val char='A'//caracteres
+    println(char)
+    //val boolTrue=True
+    //val boolFalse=Falso//Booleanas
+    //val stringEx : String ="Hola" Variable String
+    //printl(stringEx)
+    val edad=19
+    println("Mi edad es $edad")//String template
+    println("Mi edad dentro de dos años es ${edad+2} años")//String template para sumar
+    /*Declaracion de variables con diferentes tipos de datos
+    */
+}
