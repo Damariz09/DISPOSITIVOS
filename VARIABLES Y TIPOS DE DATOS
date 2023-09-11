@@ -1,0 +1,16 @@
+fun main() {
+    // 1. Para un número decimal, ¿Qué tipo de dato se asigna por defecto? Imprimirlo
+    val numeroDecimal = 5.5
+    println("El tipo de dato por defecto para un número decimal es: ${numeroDecimal::class.simpleName}")
+
+    // 2. Volver flotante a la variable decimal
+    val flotante: Float = numeroDecimal.toFloat()
+    println("El valor de la variable decimal convertida a flotante es: $flotante")
+    
+    // 3. Declarar una variable const val con el valor de PI y multiplicarla por 2 veces nuestra variable decimal
+    val PI = 3.14159265359
+    val perimetro = 2 * numeroDecimal * PI
+
+    // Imprimir el resultado usando String Template
+    println("El perímetro del círculo es: $perimetro")
+}
