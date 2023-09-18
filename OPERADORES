@@ -1,0 +1,17 @@
+fun main() {
+    // Coordenadas de los puntos
+    val x1 = 4
+    val x2 = -3
+    val y1 = 3
+    val y2 = -2
+
+    // Calculo de la pendiente
+    val m = (y2 - y1).toDouble() / (x2 - x1).toDouble()
+
+    // Impresión del resultado
+    println("Cálculo de la pendiente entre los puntos ($x1, $y1) y ($x2, $y2):")
+    println("La pendiente es: $m")
+}
+
+
+https://pl.kotl.in/HdmlMaazZ?theme=darcula
