@@ -1,0 +1,58 @@
+//LAZCANO BAUTISTA DAMARIZ PAULINA
+//Para un parrafo se hace triple comillas (""")
+ 	//val parrafo="""
+    /* Existen metodos o funciones para realizar operaciones aritmeticas(a+b)
+     Tambien existen funciones para incrementables(a=a+a)
+     Existen funciones para asignaciones aumentadas
+     Tambien existen metodos para operadores de igualdad
+     Operadores relacionales (a<b, a>b)
+     Tenemos funciones para realizar programacion estructurada
+     para una funcion es: 
+     fun metodo (argumntos:tipo de dato):[tipo de valor de retorno]{
+     return tipo de dato que retorna
+     }
+     */
+import kotlin.math.pow
+
+const val pi=3.1416f
+const val PHI=1.618f
+
+fun main() {
+        //Perimetro de un circulo
+    val decimal=1.325f
+    val perimetro=2*pi*decimal
+    println("El perimetro del circulo es: $perimetro")
+    
+    //Calculo de una pendiente
+    val x1=4
+    val x2=-3
+    val y1=3
+    val y2=-2
+    val m=(y2-y1)/(x2-x1)
+    print("Calculo de una pendiente")
+    println(m)
+    
+    
+    //Variables para la funcion
+    val radius=4f
+  	val area=circleArea(radius)
+  println("El area del circulo es :$area")
+    
+    
+fun circleArea(radius:Float):Float{//funcion para elevar un numero a una potencia
+    return pi=radius.pow(2)
+}
+
+    
+    println(getPI())
+    printPHI()
+}
+
+
+fun getPI():Float{
+    return pi
+}
+
+fun printPHI(){
+    println("El numero aureo vale $PHI")
+}
