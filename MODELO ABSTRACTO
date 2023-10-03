@@ -1,0 +1,24 @@
+//Modelo abstracto de un objeto
+class phone{
+    
+    var isOn = false
+    
+     //metodos
+     fun turnOn(){
+         isOn = true
+     }
+     
+     fun turnOff(){
+         isOn = false
+     }
+     
+     fun getTurn(){
+         val turMode = if(isOn) "Encendido" else "Apagado"
+         println("El telefono esta $turnM")
+     }
+}fun main() {
+    val kotlin = "🙂"
+    println(kotlin)
+}
+
+https://pl.kotl.in/HoiSIDWZe
