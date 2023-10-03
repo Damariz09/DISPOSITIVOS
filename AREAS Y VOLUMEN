@@ -1,0 +1,56 @@
+//LAZCANO BAUTISTA DAMARIZ PAULINA
+//FIGURAS AREAS Y VOLUMEN
+fun main() {
+    val userValidate = login("Juanito", "Navaja")
+    val base=20f
+    val altura=4f
+    val area=areaRect(base,altura)
+    val ancho=2f
+    val volumen=volumenPrisma(base,altura,ancho)
+    
+    println("Usuario loggeado?  $userValidate")
+    println ("Area con valores por defecto: ${rectagleArea()}")
+    println ("Area con valores por defecto: ${rectagleArea(base=10.0)}")
+    println ("Area con valores por defecto: ${rectagleArea(height=10.0)}")
+    println("El area del rectangulo es $area")
+    println("El volumen del prisma es $volumen")
+    println("El promedio de las calificaciones es $promedio")
+    
+    fun login (user: String, password: String): Boolean{
+        fun validate (input:String) Boolean{
+            if (input.isEmpty())
+            return false 
+        }
+            return true
+    }
+           val userValidated = validate (user)
+           val passwordValidated = validate(password)
+           val passValidated && passValidated 
+    
+    return userValidated && passValidated 
+}
+
+fun rectangleArea(base:Double = 20.0 , height: Double = 30.0 ):Double{
+    return base*height
+}
+
+fun areaRect(base: Float, altura:Float):Float{
+    return base*altura
+}
+fun volumenPrisma(base: Float, altura:Float, ancho:Float):Float{
+    return areaRect(base,altura)*ancho 
+}
+fun promedio (primera: Float = 8f,
+              segunda: Float = 8f
+              tercera: Float ): Float{
+    return primera + segunda + tercera)/3f
+}
+
+fun TipoDeTriangulo(lado 1:Int, lado 2:Int, lado 3:Int){
+    if (lado1 == lado2 && lado2 == lado3 && lado3 == lado1)
+    println("Es un triangulo equilatero")
+    else if(
+    lado1 == lado2)
+}
+
+https://pl.kotl.in/DK9L0IsXB
