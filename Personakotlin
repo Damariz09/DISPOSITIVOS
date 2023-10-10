@@ -1,0 +1,10 @@
+class Persona constructor (val nombre:String, val apellidos:String, val sexo:String, altura:Float) {
+init {
+println("""valor edicion:
+Nombre=$nombre,
+Apellidos=$apellidos,
+Sexo=$sexo,
+Altura=$altura
+""".trimIndent())
+}
+}
