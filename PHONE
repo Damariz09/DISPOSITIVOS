@@ -1,0 +1,11 @@
+class Phone{
+var isOn=false
+fun turnOn(){
+isOntrue
+}
+fun turnOff() {
+isOn=false
+}
+fun getTurn() {
+val turnMode=if (isOn) "Encendido" else "Esta apagado"
+println("El telefono
