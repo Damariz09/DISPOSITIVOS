@@ -1,0 +1,17 @@
+fun main() { 
+val myPhone=Phone
+myPhone.getTurn()
+myPhone.turnOn()
+myPhone.getTurn()
+
+val myVehiculo=Vehiculo("Ford","Focus","azul")
+println("El coche esta prendido? $(myVehiculo.encendido)")
+println("El coche esta encendido? $(myVehiculo.encendido)")
+val golNegro=Vehiculo("Volkswagen","Gol")
+
+val pointer=Vehiculo
+color="Blanco",
+marca="Volkswagen",
+modelo="Pointer"
+)
+}
